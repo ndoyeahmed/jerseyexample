@@ -8,11 +8,10 @@ import main.java.com.utils.UserLoginModel;
 import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.util.Collections;
 
 @Path("/user")
 public class UtilisateurController {
-    private Gson gson = new Gson();
+    private final Gson gson = new Gson();
 
     @GET
     @Path("/all")

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DataUtilitaire {
-    static List<Utilisateur> utilisateurs = new ArrayList<>();
+    private static final List<Utilisateur> utilisateurs = new ArrayList<>();
 
     public static List<Utilisateur> getAllUser() {
         if (utilisateurs.size() <= 0 ) {
