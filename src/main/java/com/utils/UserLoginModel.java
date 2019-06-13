@@ -5,7 +5,7 @@ public class UserLoginModel {
     private String login;
     private String password;
 
-    String getLogin() {
+    public String getLogin() {
         return login;
     }
 
@@ -15,7 +15,7 @@ public class UserLoginModel {
 //    }
 // --Commented out by Inspection STOP (13/06/2019 04:23)
 
-    String getPassword() {
+    public String getPassword() {
         return password;
     }
 
